@@ -37,15 +37,17 @@ require __DIR__.'/auth.php';
 
 //NUO CIA TOLIAU KURTA mano
 
-//Start Admin Group Middleware
+//////Start Admin Group Middleware
 Route::middleware(['auth', 'roles:admin'])->group(function(){
     
     Route::get('/admin/dashboard', [AdminController::class, 'AdminDashboard'])->name('admin.dashboard');
 
+    Route::get('/admin/logout', [AdminController::class, 'AdminLogout'])->name('admin.logout');
+
 }); //End Admin Group Middleware
 
 
-//StartInstructor Group Middleware
+//////StartInstructor Group Middleware
 Route::middleware(['auth', 'roles:instructor'])->group(function(){
 
 Route::get('/instructor/dashboard', [InstructorController::class, 'InstructorDashboard'])->name('instructor.dashboard');

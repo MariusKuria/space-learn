@@ -18,3 +18,9 @@ yarn-error.log
 /.idea
 /.vscode
 .DS_Store
+
+#Ignore imgage files
+*.png
+*.jpg
+*.gif
+
