@@ -9,9 +9,9 @@
             <div class="card-body">
                 <div class="d-flex align-items-center">
                     <div>
-                        <p class="mb-0 text-secondary">Total Orders</p>
+                        <p class="mb-0 text-secondary">Viso užsakymų</p>
                         <h4 class="my-1 text-info">4805</h4>
-                        <p class="mb-0 font-13">+2.5% from last week</p>
+                        <p class="mb-0 font-13">+2.5% nuo praeitos savaitės</p>
                     </div>
                     <div class="widgets-icons-2 rounded-circle bg-gradient-blues text-white ms-auto"><i class='bx bxs-cart'></i>
                     </div>
