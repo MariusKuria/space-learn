@@ -2,6 +2,9 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AdminController;
+use App\Http\Controllers\InstructorController;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,6 +21,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+//NUO CIA SUKURTA BREEZO
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
@@ -29,3 +34,20 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
+
+//NUO CIA TOLIAU KURTA mano
+
+//Start Admin Group Middleware
+Route::middleware(['auth', 'roles:admin'])->group(function(){
+    
+    Route::get('/admin/dashboard', [AdminController::class, 'AdminDashboard'])->name('admin.dashboard');
+
+}); //End Admin Group Middleware
+
+
+//StartInstructor Group Middleware
+Route::middleware(['auth', 'roles:instructor'])->group(function(){
+
+Route::get('/instructor/dashboard', [InstructorController::class, 'InstructorDashboard'])->name('instructor.dashboard');
+
+}); //End Instructor Group Middleware
