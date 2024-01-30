@@ -44,8 +44,14 @@ Route::middleware(['auth', 'roles:admin'])->group(function(){
 
     Route::get('/admin/logout', [AdminController::class, 'AdminLogout'])->name('admin.logout');
 
+
 }); //End Admin Group Middleware
 
+//START ADMIN LOGIN
+
+Route::get('/admin/login', [AdminController::class, 'AdminLogin'])->name('admin.login');
+
+//END ADMIN LOGIN
 
 //////StartInstructor Group Middleware
 Route::middleware(['auth', 'roles:instructor'])->group(function(){
