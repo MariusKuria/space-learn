@@ -20,7 +20,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 	<link href="{{ asset('backend/assets/css/app.css') }}" rel="stylesheet">
 	<link href="{{ asset('backend/assets/css/icons.css') }}" rel="stylesheet">
-	<title>Administratoriaus prisijungimas</title>
+	<title>Instruktoriaus prisijungimas</title>
 </head>
 
 <body class="">
@@ -48,7 +48,7 @@
 										<img src="{{ asset('backend/assets/images/newlogo.jpg') }}" width="60" alt="">
 									</div>
 									<div class="text-center mb-4">
-										<h5 class="">Administratoriaus prisijungimas</h5>
+										<h5 class="">Instruktoriaus prisijungimas</h5>
 										<p class="mb-0">Prašom prisijungti prie savo paskyros</p>
 									</div>
 									<div class="form-body">
