@@ -28,7 +28,7 @@
 
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" >
 
-	<title>Admin valdymo skydas</title>
+	<title>Administratorius</title>
 </head>
 
 <body>
