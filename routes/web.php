@@ -68,6 +68,10 @@ Route::get('/instructor/dashboard', [InstructorController::class, 'InstructorDas
 
 Route::get('/instructor/logout', [InstructorController::class, 'InstructorLogout'])->name('instructor.logout');
 
+Route::get('/instructor/profile', [InstructorController::class, 'InstructorProfile'])->name('instructor.profile');
+
+Route::post('/instructor/profile/store', [InstructorController::class, 'InstructorProfileStore'])->name('instructor.profile.store');
+
 }); //End Instructor Group Middleware
 
 //START INSTRUCTOR LOGIN

@@ -368,7 +368,7 @@
                     <li>
                         <div class="dropdown-divider mb-0"></div>
                     </li>
-                    <li><a class="dropdown-item d-flex align-items-center" href="{{ url('admin/logout') }}"><i class="bx bx-log-out-circle"></i><span>Išsiregistruoti</span></a>
+                    <li><a class="dropdown-item d-flex align-items-center" href="{{ url('admin/logout') }}"><i class="bx bx-log-out-circle"></i><span>Atsijungti</span></a>
                     </li>
                 </ul>
             </div>
