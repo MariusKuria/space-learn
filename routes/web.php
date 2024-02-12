@@ -17,9 +17,11 @@ use App\Http\Controllers\UserController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+Route::get('/', [UserController::class, 'Index'])->name('index');
 
 //NUO CIA SUKURTA BREEZO
 
@@ -71,6 +73,10 @@ Route::get('/instructor/logout', [InstructorController::class, 'InstructorLogout
 Route::get('/instructor/profile', [InstructorController::class, 'InstructorProfile'])->name('instructor.profile');
 
 Route::post('/instructor/profile/store', [InstructorController::class, 'InstructorProfileStore'])->name('instructor.profile.store');
+
+Route::get('/instructor/change/password', [InstructorController::class, 'InstructorChangePassword'])->name('instructor.change.password');
+
+Route::post('/instructor/password/update', [InstructorController::class, 'InstructorPasswordUpdate'])->name('instructor.password.update');
 
 }); //End Instructor Group Middleware
 
