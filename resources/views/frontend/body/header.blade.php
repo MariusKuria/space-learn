@@ -67,7 +67,7 @@
                             <div class="menu-category">
                                 <ul>
                                     <li>
-                                        <a href="#">Categories <i class="la la-angle-down fs-12"></i></a>
+                                        <a href="#">Kategorijos <i class="la la-angle-down fs-12"></i></a>
                                         <ul class="cat-dropdown-menu">
                                             <li>
                                                 <a href="course-grid.html">Development <i class="la la-angle-right"></i></a>
@@ -191,14 +191,14 @@
                             </div><!-- end menu-category -->
                             <form method="post">
                                 <div class="form-group mb-0">
-                                    <input class="form-control form--control pl-3" type="text" name="search" placeholder="Search for anything">
+                                    <input class="form-control form--control pl-3" type="text" name="search" placeholder="Paieška">
                                     <span class="la la-search search-icon"></span>
                                 </div>
                             </form>
                             <nav class="main-menu">
                                 <ul>
                                     <li>
-                                        <a href="#">Home <i class="la la-angle-down fs-12"></i></a>
+                                        <a href="#">Namai <i class="la la-angle-down fs-12"></i></a>
                                         <ul class="dropdown-menu-item">
                                             <li><a href="index.html">Home One</a></li>
                                             <li><a href="home-2.html">Home Two</a></li>
@@ -207,7 +207,7 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="#">courses <i class="la la-angle-down fs-12"></i></a>
+                                        <a href="#">Kursai <i class="la la-angle-down fs-12"></i></a>
                                         <ul class="dropdown-menu-item">
                                             <li><a href="course-grid.html">course grid</a></li>
                                             <li><a href="course-list.html">course list</a></li>
@@ -221,7 +221,7 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="#">Student <i class="la la-angle-down fs-12"></i></a>
+                                        <a href="#">Studentas <i class="la la-angle-down fs-12"></i></a>
                                         <ul class="dropdown-menu-item">
                                             <li><a href="student-detail.html">student detail</a></li>
                                             <li><a href="student-quiz.html">take quiz</a></li>
@@ -234,7 +234,7 @@
                                         </ul>
                                     </li>
                                     <li class="mega-menu-has">
-                                        <a href="#">pages <i class="la la-angle-down fs-12"></i></a>
+                                        <a href="#">Puslapiai <i class="la la-angle-down fs-12"></i></a>
                                         <div class="dropdown-menu-item mega-menu">
                                             <ul class="row no-gutters">
                                                 <li class="col-lg-3">
@@ -280,7 +280,7 @@
                                         </div>
                                     </li>
                                     <li>
-                                        <a href="#">blog <i class="la la-angle-down fs-12"></i></a>
+                                        <a href="#">blogas <i class="la la-angle-down fs-12"></i></a>
                                         <ul class="dropdown-menu-item">
                                             <li><a href="blog-full-width.html">blog full width </a></li>
                                             <li><a href="blog-no-sidebar.html">blog no sidebar</a></li>

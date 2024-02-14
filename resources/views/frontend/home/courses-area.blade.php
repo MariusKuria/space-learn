@@ -1,8 +1,8 @@
 <section class="course-area pb-120px">
     <div class="container">
         <div class="section-heading text-center">
-            <h5 class="ribbon ribbon-lg mb-2">Choose your desired courses</h5>
-            <h2 class="section__title">The world's largest selection of courses</h2>
+            <h5 class="ribbon ribbon-lg mb-2">Pasirink savo pageidaujamus kursus</h5>
+            <h2 class="section__title">Didžiausias kosmoso kursų pasirinkimas Lietuvoje</h2>
             <span class="section-divider"></span>
         </div><!-- end section-heading -->
         <ul class="nav nav-tabs generic-tab justify-content-center pb-4" id="myTab" role="tablist">
