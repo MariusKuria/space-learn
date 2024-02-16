@@ -69,7 +69,8 @@
                     </div><!-- end col-lg-2 -->
                     <div class="col-lg-10">
                         <div class="menu-wrapper">
-                            <div class="menu-category">
+
+                            {{-- <div class="menu-category">
                                 <ul>
                                     <li>
                                         <a href="#">Kategorijos <i class="la la-angle-down fs-12"></i></a>
@@ -199,7 +200,8 @@
                                     <input class="form-control form--control pl-3" type="text" name="search" placeholder="Paieška">
                                     <span class="la la-search search-icon"></span>
                                 </div>
-                            </form>
+                            </form> --}}
+                            
                             <nav class="main-menu">
                                 <ul>
                                     <li>
