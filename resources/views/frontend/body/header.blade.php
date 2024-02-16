@@ -1,5 +1,5 @@
 <header class="header-menu-area bg-white">
-    <div class="header-top pr-150px pl-150px border-bottom border-bottom-gray py-1">
+    {{-- <div class="header-top pr-150px pl-150px border-bottom border-bottom-gray py-1">
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-lg-6">
@@ -39,8 +39,8 @@
                     </div><!-- end header-widget -->
                 </div><!-- end col-lg-6 -->
             </div><!-- end row -->
-        </div><!-- end container-fluid -->
-    </div><!-- end header-top -->
+        </div><!-- end container-fluid -->CIA PATS VIRSUS KUR KONTAKTAI IR LIGHT MODE
+    </div><!-- end header-top --> --}}
     <div class="header-menu-content pr-150px pl-150px bg-white">
         <div class="container-fluid">
             <div class="main-menu-content">
