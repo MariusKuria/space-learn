@@ -20,7 +20,7 @@
             <div class="row">
                 <div class="col-lg-4 responsive-column-half">
                     <div class="category-item">
-                        <img  class="cat__img lazy" src="images/img-loading.png" data-src="images/img1.jpg" alt="Category image">
+                        <img  class="cat__img lazy" src="{{ asset('frontend/images/zvaigzdes.jpg') }}"   data-src="images/img1.jpg" alt="Category image">
                         <div class="category-content">
                             <div class="category-inner">
                                 <h3 class="cat__title"><a href="#">Saulės sistema</a></h3>
@@ -32,7 +32,7 @@
                 </div><!-- end col-lg-4 -->
                 <div class="col-lg-4 responsive-column-half">
                     <div class="category-item">
-                        <img  class="cat__img lazy" src="images/img-loading.png" data-src="images/img2.jpg" alt="Category image">
+                        <img  class="cat__img lazy" src="{{ asset('frontend/images/raketa1.jpg') }}" data-src="images/img2.jpg" alt="Category image">
                         <div class="category-content">
                             <div class="category-inner">
                                 <h3 class="cat__title"><a href="#">Raketos</a></h3>
@@ -44,7 +44,7 @@
                 </div><!-- end col-lg-4 -->
                 <div class="col-lg-4 responsive-column-half">
                     <div class="category-item">
-                        <img  class="cat__img lazy" src="images/img-loading.png" data-src="images/img3.jpg" alt="Category image">
+                        <img  class="cat__img lazy" src="{{ asset('frontend/images/sun_system1.jpg') }}" data-src="images/img3.jpg" alt="Category image">
                         <div class="category-content">
                             <div class="category-inner">
                                 <h3 class="cat__title"><a href="#">Žvaigždės</a></h3>
@@ -80,7 +80,7 @@
                 </div><!-- end col-lg-4 -->
                 <div class="col-lg-4 responsive-column-half">
                     <div class="category-item">
-                        <img  class="cat__img lazy" src="images/img-loading.png" data-src="images/img6.jpg" alt="Category image">
+                        <img  class="cat__img lazy" src="{{ asset('frontend/images/milkiway.jpg') }}" data-src="images/img6.jpg" alt="Category image">
                         <div class="category-content">
                             <div class="category-inner">
                                 <h3 class="cat__title"><a href="#">Paukščių takas</a></h3>

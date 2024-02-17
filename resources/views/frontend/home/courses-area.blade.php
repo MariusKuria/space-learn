@@ -1,8 +1,8 @@
 <section class="course-area pb-120px">
     <div class="container">
         <div class="section-heading text-center">
-            <h5 class="ribbon ribbon-lg mb-2">Pasirink savo pageidaujamus kursus</h5>
-            <h2 class="section__title">Didžiausias kosmoso kursų pasirinkimas Lietuvoje</h2>
+            <h5 class="ribbon ribbon-lg mb-2">Pasirink savo pageidaujamas pamokas</h5>
+            <h2 class="section__title">Didžiausias kosmoso pamokų skirtų vaikams pasirinkimas Lietuvoje</h2>
             <span class="section-divider"></span>
         </div><!-- end section-heading -->
         <ul class="nav nav-tabs generic-tab justify-content-center pb-4" id="myTab" role="tablist">

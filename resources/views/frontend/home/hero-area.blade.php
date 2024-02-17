@@ -5,15 +5,14 @@
             <div class="container">
                 <div class="hero-content">
                     <div class="section-heading">
-                        <h2 class="section__title text-white fs-65 lh-80 pb-3">Mes Tau Padėsime Pažinti Kosmosą <br> Tai Kas Tau Patinka</h2>
-                        <p class="section__desc text-white pb-4">Emply dummy text of the printing and typesetting industry orem Ipsum has been the
-                            <br>industry's standard dummy text ever sinceprinting and typesetting industry.
+                        <h2 class="section__title text-white fs-65 lh-80 pb-3">Mes Tau Padėsime Pažinti Kosmosą <br> Tau Tai Tikrai patiks</h2>
+                        <p class="section__desc text-white pb-4">Mes, Tau Padėsime Pažinti Kosmosą! Mūsų tikslas yra kartu su tavimi atrasti kosmoso stebuklus ir tyrinėti žvaigždes bei planetas. Mes prižadame, kad mūsų nuotykiai kosmose bus pilni smagių ir įdomių atradimų. 
                         </p>
                     </div><!-- end section-heading -->
                     <div class="hero-btn-box d-flex flex-wrap align-items-center pt-1">
-                        <a href="admission.html" class="btn theme-btn mr-4 mb-4">Join with Us <i class="la la-arrow-right icon ml-1"></i></a>
-                        <a href="#" class="btn-text video-play-btn mb-4" data-fancybox data-src="https://www.youtube.com/watch?v=cRXm1p-CNyk">
-                            Watch Preview<i class="la la-play icon-btn ml-2"></i>
+                        <a href="admission.html" class="btn theme-btn mr-4 mb-4">Prisijunk prie mūsų <i class="la la-arrow-right icon ml-1"></i></a>
+                        <a href="#" class="btn-text video-play-btn mb-4" data-fancybox data-src="https://www.youtube.com/watch?v=NvTl2X1IS7Q">
+                            Peržiūra<i class="la la-play icon-btn ml-2"></i>
                         </a>
                     </div><!-- end hero-btn-box -->
                 </div><!-- end hero-content -->
@@ -23,9 +22,8 @@
             <div class="container">
                 <div class="hero-content text-center">
                     <div class="section-heading">
-                        <h2 class="section__title text-white fs-65 lh-80 pb-3">Join Aduca & Get <br> Your Free Courses!</h2>
-                        <p class="section__desc text-white pb-4">Emply dummy text of the printing and typesetting industry orem Ipsum has been the
-                            <br>industry's standard dummy text ever sinceprinting and typesetting industry.
+                        <h2 class="section__title text-white fs-65 lh-80 pb-3">Prisijunk prie mūsų ir atrask<br> Savo Nemokamus Kursus!</h2>
+                        <p class="section__desc text-white pb-4">Tu būsi mūsų draugas ir bendras kelionės dalininkas, o mes pasirūpinsime, kad kiekviena akimirka būtų pilna linksmybių ir įspūdžių. Kartu išmoksime naujų dalykų apie kosmosą, o mūsų draugystė bus stipresnė nei kosminis laivas! 
                         </p>
                     </div><!-- end section-heading -->
                     <div class="hero-btn-box d-flex flex-wrap align-items-center pt-1 justify-content-center">
@@ -41,9 +39,8 @@
             <div class="container">
                 <div class="hero-content text-right">
                     <div class="section-heading">
-                        <h2 class="section__title text-white fs-65 lh-80 pb-3">Learn Anything, <br> Anytime, Anywhere</h2>
-                        <p class="section__desc text-white pb-4">Emply dummy text of the printing and typesetting industry orem Ipsum has been the
-                            <br>industry's standard dummy text ever sinceprinting and typesetting industry.
+                        <h2 class="section__title text-white fs-65 lh-80 pb-3">Mokinkis ką tik nori, <br> bet kuriuo laiku, bet kurioje vietoje</h2>
+                        <p class="section__desc text-white pb-4">Taigi, pasiruošk keliauti į kosminę kelionę, kurioje laukia neįtikėti nuotykiai ir stebuklai!
                         </p>
                     </div>
                     <div class="hero-btn-box d-flex flex-wrap align-items-center pt-1 justify-content-end">

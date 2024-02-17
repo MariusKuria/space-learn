@@ -45,7 +45,6 @@
     </div><!-- end header-top --> --}}
 
 
-
     <div class="header-menu-content pr-150px pl-150px bg-white">
         <div class="container-fluid">
             <div class="main-menu-content">
@@ -55,9 +54,9 @@
                         <div class="logo-box">
                             <a href="index.html" class="logo"><img src="{{ asset('backend/assets/images/newlogo.jpg') }}" width="60" alt="logo"></a>
                             <div class="user-btn-action">
-                                <div class="search-menu-toggle icon-element icon-element-sm shadow-sm mr-2" data-toggle="tooltip" data-placement="top" title="Search">
+                                {{-- <div class="search-menu-toggle icon-element icon-element-sm shadow-sm mr-2" data-toggle="tooltip" data-placement="top" title="Search">
                                     <i class="la la-search"></i>
-                                </div>
+                                </div> --}}
                                 <div class="off-canvas-menu-toggle cat-menu-toggle icon-element icon-element-sm shadow-sm mr-2" data-toggle="tooltip" data-placement="top" title="Category menu">
                                     <i class="la la-th-large"></i>
                                 </div>
@@ -205,7 +204,7 @@
                             <nav class="main-menu">
                                 <ul>
                                     <li>
-                                        <a href="#">Namai <i class="la la-angle-down fs-12"></i></a>
+                                        <a href="#">Apie mus <i class="la la-angle-down fs-12"></i></a>
                                         <ul class="dropdown-menu-item">
                                             <li><a href="index.html">Home One</a></li>
                                             <li><a href="home-2.html">Home Two</a></li>
@@ -214,7 +213,7 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="#">Kursai <i class="la la-angle-down fs-12"></i></a>
+                                        <a href="#">Pamokos <i class="la la-angle-down fs-12"></i></a>
                                         <ul class="dropdown-menu-item">
                                             <li><a href="course-grid.html">course grid</a></li>
                                             <li><a href="course-list.html">course list</a></li>
@@ -228,7 +227,7 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="#">Studentas <i class="la la-angle-down fs-12"></i></a>
+                                        <a href="#">Mokinys <i class="la la-angle-down fs-12"></i></a>
                                         <ul class="dropdown-menu-item">
                                             <li><a href="student-detail.html">student detail</a></li>
                                             <li><a href="student-quiz.html">take quiz</a></li>
@@ -240,10 +239,20 @@
                                             <li><a href="student-path-assessment-result.html">Skill result</a></li>
                                         </ul>
                                     </li>
-                                    <li class="mega-menu-has">
-                                        <a href="#">Puslapiai <i class="la la-angle-down fs-12"></i></a>
+                                    <li>
+                                        <a href="#">Partneriai <i class="la la-angle-down fs-12"></i></a>
+                                        <ul class="dropdown-menu-item">
+                                            <li><a href="index.html">Home One</a></li>
+                                            <li><a href="home-2.html">Home Two</a></li>
+                                            <li><a href="home-3.html">Home Three</a></li>
+                                            <li><a href="home-4.html">Home four</a></li>
+                                        </ul>
+                                    </li>
+                                    {{-- <li class="mega-menu-has">
+                                        <a href="#">Partneriai <i class="la la-angle-down fs-12"></i></a>
                                         <div class="dropdown-menu-item mega-menu">
                                             <ul class="row no-gutters">
+
                                                 <li class="col-lg-3">
                                                     <a href="dashboard.html">dashboard <span class="ribbon">Hot</span></a>
                                                     <a href="about.html">about</a>
@@ -285,9 +294,9 @@
                                                 </li>
                                             </ul>
                                         </div>
-                                    </li>
+                                    </li> --}}
                                     <li>
-                                        <a href="#">blogas <i class="la la-angle-down fs-12"></i></a>
+                                        <a href="#">In English <i class="la la-angle-down fs-12"></i></a>
                                         <ul class="dropdown-menu-item">
                                             <li><a href="blog-full-width.html">blog full width </a></li>
                                             <li><a href="blog-no-sidebar.html">blog no sidebar</a></li>
@@ -298,7 +307,8 @@
                                     </li>
                                 </ul><!-- end ul -->
                             </nav><!-- end main-menu -->
-                            <div class="shop-cart mr-4">
+
+                            {{-- <div class="shop-cart mr-4">
                                 <ul>
                                     <li>
                                         <p class="shop-cart-btn d-flex align-items-center">
@@ -337,10 +347,11 @@
                                         </ul>
                                     </li>
                                 </ul>
-                            </div><!-- end shop-cart -->
-                            <div class="nav-right-button">
+                            </div><!-- end shop-cart --> --}}
+
+                            {{-- <div class="nav-right-button">
                                 <a href="admission.html" class="btn theme-btn d-none d-lg-inline-block"><i class="la la-user-plus mr-1"></i> Admission</a>
-                            </div><!-- end nav-right-button -->
+                            </div><!-- end nav-right-button --> --}}
                         </div><!-- end menu-wrapper -->
                     </div><!-- end col-lg-10 -->
                 </div><!-- end row -->
