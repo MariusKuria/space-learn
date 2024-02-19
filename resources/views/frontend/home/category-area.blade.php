@@ -24,8 +24,8 @@
                         <div class="category-content">
                             <div class="category-inner">
                                 <h3 class="cat__title"><a href="#">Saulės sistema</a></h3>
-                                <p class="cat__meta">9 courses</p>
-                                <a href="#" class="btn theme-btn theme-btn-sm theme-btn-white">Explore<i class="la la-arrow-right icon ml-1"></i></a>
+                                <p class="cat__meta">3 pamokos</p>
+                                <a href="#" class="btn theme-btn theme-btn-sm theme-btn-white">Atidaryti<i class="la la-arrow-right icon ml-1"></i></a>
                             </div>
                         </div><!-- end category-content -->
                     </div><!-- end category-item -->
@@ -36,8 +36,8 @@
                         <div class="category-content">
                             <div class="category-inner">
                                 <h3 class="cat__title"><a href="#">Raketos</a></h3>
-                                <p class="cat__meta">7 courses</p>
-                                <a href="#" class="btn theme-btn theme-btn-sm theme-btn-white">Explore<i class="la la-arrow-right icon ml-1"></i></a>
+                                <p class="cat__meta">2 pamokos</p>
+                                <a href="#" class="btn theme-btn theme-btn-sm theme-btn-white">Atidaryti<i class="la la-arrow-right icon ml-1"></i></a>
                             </div>
                         </div><!-- end category-content -->
                     </div><!-- end category-item -->
@@ -48,32 +48,32 @@
                         <div class="category-content">
                             <div class="category-inner">
                                 <h3 class="cat__title"><a href="#">Žvaigždės</a></h3>
-                                <p class="cat__meta">8 courses</p>
-                                <a href="#" class="btn theme-btn theme-btn-sm theme-btn-white">Explore<i class="la la-arrow-right icon ml-1"></i></a>
+                                <p class="cat__meta">4 pamokos</p>
+                                <a href="#" class="btn theme-btn theme-btn-sm theme-btn-white">Atidaryti<i class="la la-arrow-right icon ml-1"></i></a>
                             </div>
                         </div><!-- end category-content -->
                     </div><!-- end category-item -->
                 </div><!-- end col-lg-4 -->
                 <div class="col-lg-4 responsive-column-half">
                     <div class="category-item">
-                        <img  class="cat__img lazy" src="images/img-loading.png" data-src="images/img4.jpg" alt="Category image">
+                        <img  class="cat__img lazy" src="{{ asset('frontend/images/earth.jpg') }}" data-src="images/img4.jpg" alt="Category image">
                         <div class="category-content">
                             <div class="category-inner">
                                 <h3 class="cat__title"><a href="#">Žemė</a></h3>
-                                <p class="cat__meta">6 courses</p>
-                                <a href="#" class="btn theme-btn theme-btn-sm theme-btn-white">Explore<i class="la la-arrow-right icon ml-1"></i></a>
+                                <p class="cat__meta">2 pamokos</p>
+                                <a href="#" class="btn theme-btn theme-btn-sm theme-btn-white">Atidaryti<i class="la la-arrow-right icon ml-1"></i></a>
                             </div>
                         </div><!-- end category-content -->
                     </div><!-- end category-item -->
                 </div><!-- end col-lg-4 -->
                 <div class="col-lg-4 responsive-column-half">
                     <div class="category-item">
-                        <img  class="cat__img lazy" src="images/img-loading.png" data-src="images/img5.jpg" alt="Category image">
+                        <img  class="cat__img lazy" src="{{ asset('frontend/images/moon.jpg') }}" data-src="images/img5.jpg" alt="Category image">
                         <div class="category-content">
                             <div class="category-inner">
                                 <h3 class="cat__title"><a href="#">Mėnulis</a></h3>
-                                <p class="cat__meta">7 courses</p>
-                                <a href="#" class="btn theme-btn theme-btn-sm theme-btn-white">Explore<i class="la la-arrow-right icon ml-1"></i></a>
+                                <p class="cat__meta">2 pamokos</p>
+                                <a href="#" class="btn theme-btn theme-btn-sm theme-btn-white">Atidaryti<i class="la la-arrow-right icon ml-1"></i></a>
                             </div>
                         </div><!-- end category-content -->
                     </div><!-- end category-item -->
@@ -84,8 +84,8 @@
                         <div class="category-content">
                             <div class="category-inner">
                                 <h3 class="cat__title"><a href="#">Paukščių takas</a></h3>
-                                <p class="cat__meta">8 courses</p>
-                                <a href="#" class="btn theme-btn theme-btn-sm theme-btn-white">Explore<i class="la la-arrow-right icon ml-1"></i></a>
+                                <p class="cat__meta">3 pamokos</p>
+                                <a href="#" class="btn theme-btn theme-btn-sm theme-btn-white">Atidaryti<i class="la la-arrow-right icon ml-1"></i></a>
                             </div>
                         </div><!-- end category-content -->
                     </div><!-- end category-item -->
