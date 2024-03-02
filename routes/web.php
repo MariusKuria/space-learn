@@ -26,7 +26,7 @@ Route::get('/', [UserController::class, 'Index'])->name('index');
 //NUO CIA SUKURTA BREEZO
 
 Route::get('/dashboard', function () {
-    return view('dashboard');
+    return view('frontend.dashboard.index');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
