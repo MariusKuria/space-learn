@@ -24,9 +24,9 @@
            <div class="card-body">
                <div class="d-flex align-items-center">
                    <div>
-                       <p class="mb-0 text-secondary">Total Revenue</p>
-                       <h4 class="my-1 text-danger">$84,245</h4>
-                       <p class="mb-0 font-13">+5.4% from last week</p>
+                       <p class="mb-0 text-secondary">Visiška grąža </p>
+                       <h4 class="my-1 text-danger">Eur 00,00</h4>
+                       <p class="mb-0 font-13">+5.4% nuo praeitos savaitės</p>
                    </div>
                    <div class="widgets-icons-2 rounded-circle bg-gradient-burning text-white ms-auto"><i class='bx bxs-wallet'></i>
                    </div>

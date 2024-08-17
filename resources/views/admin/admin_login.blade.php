@@ -45,11 +45,11 @@
 							<div class="card-body p-sm-5">
 								<div class="">
 									<div class="mb-3 text-center">
-										<img src="{{ asset('backend/assets/images/logo-icon.png') }}" width="60" alt="">
+										<img src="{{ asset('backend/assets/images/newlogo.jpg') }}" width="60" alt="">
 									</div>
 									<div class="text-center mb-4">
-										<h5 class="">Admin prisijungimas</h5>
-										<p class="mb-0">Please log in to your account</p>
+										<h5 class="">Administratoriaus prisijungimas</h5>
+										<p class="mb-0">Prašom prisijungti prie savo paskyros</p>
 									</div>
 									<div class="form-body">
 
@@ -57,7 +57,7 @@
 											<form class="row g-3" method="POST" action="{{ route('login') }}">
 												@csrf
 											<div class="col-12">
-												<label for="inputEmailAddress" class="form-label">Email</label>
+												<label for="inputEmailAddress" class="form-label">Elektroninis paštas</label>
 												<input type="email" id="email" name="email" class="form-control" 
 												@error('email') is-invalid @enderror id="inputEmailAddress" placeholder="jhon@example.com">
 												@error('email')
@@ -65,7 +65,7 @@
 												@enderror
 											</div>
 											<div class="col-12">
-												<label for="inputChoosePassword" class="form-label">Password</label>
+												<label for="inputChoosePassword" class="form-label">Slaptažodis</label>
 												<div class="input-group" id="show_hide_password">
 													<input type="password" name="password" id="password" class="form-control border-end-0 @error('password') is-invalid @enderror" placeholder="Enter Password"> <a href="javascript:;" class="input-group-text bg-transparent"><i class="bx bx-hide"></i></a>
 													@error('password')
@@ -76,26 +76,26 @@
 											<div class="col-md-6">
 												<div class="form-check form-switch">
 													<input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked">
-													<label class="form-check-label" for="flexSwitchCheckChecked">Remember Me</label>
+													<label class="form-check-label" for="flexSwitchCheckChecked">Priminti mane</label>
 												</div>
 											</div>
-											<div class="col-md-6 text-end">	<a href="authentication-forgot-password.html">Forgot Password ?</a>
+											<div class="col-md-6 text-end">	<a href="authentication-forgot-password.html">Pamiršote slaptažodį ?</a>
 											</div>
 											<div class="col-12">
 												<div class="d-grid">
-													<button type="submit" class="btn btn-primary">Sign in</button>
+													<button type="submit" class="btn btn-primary">Prisijungti</button>
 												</div>
 											</div>
 											<div class="col-12">
 												<div class="text-center ">
-													<p class="mb-0">Don't have an account yet? <a href="authentication-signup.html">Sign up here</a>
+													<p class="mb-0">Neturite paskyros? <a href="authentication-signup.html">Registruotis čia</a>
 													</p>
 												</div>
 											</div>
 										</form>
 
 									</div>
-									<div class="login-separater text-center mb-5"> <span>OR SIGN IN WITH</span>
+									<div class="login-separater text-center mb-5"> <span>ARBA PRISIJUNGTI SU</span>
 										<hr>
 									</div>
 									<div class="list-inline contacts-social text-center">
